@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
     <link rel="stylesheet" href="../css/inicio.css">
     <title>Calendario</title>
 </head>
@@ -11,25 +13,23 @@
     <header>
         <h1>Contador</h1>
     </header>
-    <nav>
-        <ul>
-            <li>
-                <a href="/index.html">Home</a>
-            </li>
-            <li>
-                <a href="calendario.html"><s>Calendario</s></a>
-            </li>
-            <li>
-                <a href="stock.html">Stock</a>
-            </li>
-            <li>
-                <a href="estadisticas.html">Estadisticas</a>
-            </li>
-            <li>
-                <a href="informes.html">Informes</a>
-            </li>
-
-        </ul>
+    <nav class="navbar navbar-expand-sm bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="../index.html">Inicio</a>
+                <a class="nav-link active" aria-current="page" href="#">Calendario</a>
+                <a class="nav-link" href="stock.html">Stock</a>
+                <a class="nav-link" href="estadisticas.html">Estadisticas</a>
+                <a class="nav-link" href="informes.html">Informes</a>
+              
+            </div>
+          </div>
+        </div>
     </nav>
     <main>
        
@@ -39,22 +39,23 @@
             <div class="linea linea2"></div>
             <div class="linea linea3"></div>
         </div>
-        <div class="contenedor_tarjeta1">
+        <div class="container">
             <div class="tarjeta">
                 <h2> Calendario de Actividades
 
                 </h2>
-        <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23edf2f4&ctz=America%2FMontevideo&src=bC52YXpxdWV6cnVuQGdtYWlsLmNvbQ&src=ZXMtNDE5LnV5I2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-        <h2>Agregar Evento</h2>
-        <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=Mzg5MTcxOWU4M3YwMjU2amdwNjR0NjJoNjIgbC52YXpxdWV6cnVuQG0&amp;tmsrc=l.vazquezrun%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_es-419.gif"></a>
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23edf2f4&ctz=America%2FMontevideo&src=bC52YXpxdWV6cnVuQGdtYWlsLmNvbQ&src=ZXMtNDE5LnV5I2hvbGlkYXlAZ3JvdXAudi5jYWxlbmRhci5nb29nbGUuY29t&color=%23039BE5&color=%230B8043" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+                <h2>Agregar Evento</h2>
+                <a target="_blank" href="https://calendar.google.com/event?action=TEMPLATE&amp;tmeid=Mzg5MTcxOWU4M3YwMjU2amdwNjR0NjJoNjIgbC52YXpxdWV6cnVuQG0&amp;tmsrc=l.vazquezrun%40gmail.com"><img border="0" src="https://www.google.com/calendar/images/ext/gc_button1_es-419.gif"></a>
             </div>
         </div>
     </main>
     <footer>
         <p>
-            Contacto: 
+            Contacto: Corderhouse@proyecto.com +59899999900
         </p>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
 
 </body>
 </html>
