@@ -32,7 +32,9 @@ h1{
     
 }
 
-
+table {
+    overflow-y: none;
+}
 img {
     width: 100%;
     
@@ -43,7 +45,7 @@ img {
     .container{
         width: 100%;
         
-        display: flex;
+        display: relative;
         flex-wrap: wrap;
         justify-content: center;
         position: absolute;
